@@ -32,7 +32,7 @@ h3 {
     width: 100%;
     border-radius: .75rem;
     display: block;
-    margin: 1rem auto;
+    margin: .75rem auto;
 }
 
 .card-content {
@@ -42,14 +42,13 @@ h3 {
 }
 
 .card-content p {
-    margin: 1rem auto;
+    margin: .75rem auto;
     color: #6C727F;
     font-family: 'Sora';
     font-size: 0.875rem;
 }
 
 .author {
-    bottom: 1rem;
     padding: 1rem;
     width:100%;
     display: block;
@@ -63,7 +62,7 @@ h3 {
     background-color: #E6D6FC;
     color: #883AE1;
     width: fit-content;
-    margin: 1rem 0;
+    margin: .5rem 0;
     padding: .25rem 1rem;
     border-radius: 20px;
 }
