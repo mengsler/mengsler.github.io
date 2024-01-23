@@ -6,9 +6,9 @@
 
 body {
     display: flex;
-    height: 90vh;
-    width: 90vw;
-    
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(90deg, #ccc, white, #ccc);
 }
 
 main {
@@ -20,24 +20,70 @@ main {
 
 h1 {
     margin-bottom: 1rem;
+    color: #fff;
+    font-family: "Pirata One";
+    font-size: 3.5em;
 }
 
 h2 {
-    border-bottom: 3px solid black;
+    border-bottom: 3px double #aaa;
+    color: #ddd;
+    font-family: "Cinzel Decorative";
+    font-size: 2em;
 }
 
 h4 {
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #aaa;
     width: fit-content;
     padding-right: 3rem;
     margin-bottom: .5rem;
+    color: #ddd;
+    font-family: "Cinzel Decorative";
+    font-size: 1.5em;
+}
+
+p {
+    margin-top: .25rem;
+    color: #ccc;
+    font-family: "Unica One";
+    font-size: 1.25em;
+}
+
+ul {
+    margin-left: 2rem;
+    padding-bottom: 2rem;
 }
 
 li {
-    border-bottom: 1px solid black;
     width: fit-content;
+    color: #ccc;
+    font-family: "Unica One";
+    font-size: 1.25em;
+}
+
+a {
+    text-decoration: none;
+    color: #ccc;
+}
+
+a:hover {
+    color: white;
+}
+
+.logo {
+    max-width: 13rem;
+    max-height: 13rem;
+    margin: 2rem auto;
+    display: block;
 }
 
 .devChallenges {
     margin-top: 1rem;
+}
+
+.content-wrapper {
+    border-radius: 1rem;
+    background-image: linear-gradient(90deg, #000, #333, #000);
+    padding: 1.5rem;
+    box-shadow: 7px 7px 10px grey;
 }

@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #F2F5F9;
+    
+}
+
+img {
+    width: 100%;
+}
+
+h2 {
+    margin: 0 0 1rem;
+    font-family: 'Poppins';
+}
+
+h4 {
+    font-family: Poppins;
+}
+
+p {
+    font-family: 'Lato';
+    color: #677489;
+    font-weight: 400;
+}
+
+.card {
+    max-width: 25rem;
+    max-height: 35rem;
+    flex-direction: column;
+    flex: 4;
+    background: #fff;
+    border-radius: .75rem;
+    overflow: hidden;
+}
+
+.text-content {
+    display: block;
+    width: 90%;
+    background: #fff;
+    margin: 0 auto 2rem;
+}
+
+.white-wave {
+    display: block;
+    margin-top: -4rem;
+}
+
+.author {
+    border-top: 1px solid #F2F5F9;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.author-icon {
+    border: .24rem solid #F2F5F9;
+    border-radius: 15rem;
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.author-info {
+    margin-left: .75rem;
+}
